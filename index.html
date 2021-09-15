@@ -1,18 +1,224 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
 </head>
-<body>
 
+<body class="container shadow p-0 bg-body rounded">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./public/img/logo-horizontal-fond-noir-couleur.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item  m-2">
+                            <a class="nav-link d-flex flex-column justify-content-center align-items-center"
+                                aria-current="page" href="#">
+                                <img src="./public/img/home-icon.png" alt="">
+                                HOME
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link d-flex flex-column justify-content-center align-items-center"
+                                aria-current="page" href="#">
+                                <img src="./public/img/packages-icon.png" alt="">
+                                PACKAGES
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link d-flex flex-column justify-content-center align-items-center" href="#">
+                                <img src="./public/img/outils-icon.png" alt="">
+                                OUTILS
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link d-flex flex-column justify-content-center align-items-center" href="#">
+                                <img src="./public/img/projets-icon.png" alt="">
+                                PROJETS
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link d-flex flex-column justify-content-center align-items-center" href="#">
+                                <img src="./public/img/temoignages-icon.png" alt="">
+                                TEMOIGNAGES
+                            </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link d-flex flex-column justify-content-center align-items-center" href="#">
+                                <img src="./public/img/contact-icon.png" alt="">
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <img class="w-100" src="./public/img/banner-home.png" alt="">
+        </div>
+    </header>
+    <!-- section about -->
+    <section>
+        <div class="container m-sm-0 py-5">
+            <div class="row d-flex m-sm-0">
+                <div class="col-sm-12 col-md-6 col-lg-5 text-center">
+                    <img class="img-fluid" src="./public/img/logo-about.png" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-7">
+                    <h2>Une communication evolutive baser sur l'avancement de votre projet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis soluta, dolor totam ab
+                        doloribus! Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta reiciendis eaque odit
+                        perspiciatis impedit quo accusantium obcaecati nobis? Obcaecati, magnam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ratione dolorum aliquam.
+                        Perferendis, dolorem officiis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ad impedit maxime! Nesciunt in
+                        enim nisi dolorum tempora, dolorem ut?</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- section pack -->
+    <section class="bg-primary">
+        <div class="container p-5 text-white">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-5 text-center">
+                    <img src="./public/img/packages.png" alt="" >
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-7 px-0 d-flex align-items-center justify-content-sm-center justify-content-md-start text-sm-center text-md-start">
+                    <h1 class="fs-1  mb-0">A chaque etape son pack <br><span class="fs-4">naitre, grandir et prosperer.</span></h1>
+                </div>
+            </div>
+            <div class="row text-center my-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card border-0 text-center bg-primary text-center" style="width: 18rem;">
+                        <h5 class="card-title pb-4 fs-1">Eclosion</h5>
+                        <img src="./public/img/icon-eclosion.png" class="card-img-top pb-4" alt="..." width="200" height="250">
+                        <div class="card-body">
+                          <p class="card-text pb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-light text-dark pe-5 ps-5">ca m'interesse</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-0 text-center bg-primary" style="width: 18rem;">
+                        <h5 class="card-title pb-4 fs-1">Evolution</h5>
+                        <img src="./public/img/icon-evolution.png" class="card-img-top pb-4" alt="..." width="200" height="250">
+                        <div class="card-body">
+                          <p class="card-text pb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-light text-dark pe-5 ps-5">ca m'interesse</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-0 text-center bg-primary" style="width: 18rem;">
+                        <h5 class="card-title pb-4 fs-1">Envol</h5>
+                        <img src="./public/img/icon-envole.png" class="card-img-top pb-4" alt="..." width="200" height="250">
+                        <div class="card-body">
+                          <p class="card-text pb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-light text-dark pe-5 ps-5">ca m'interesse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section communications -->
+    <section>
+        <div class="container p-5 text-dark">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-5 text-center">
+                    <img src="./public/img/outils.png" alt="" >
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-7 px-0 d-flex align-items-center justify-content-sm-center justify-content-md-start text-sm-center text-md-start">
+                    <h1 class="fs-1 mb-0">Des outils pour une communication complete</h1>
+                </div>
+            </div>
+            <div class="row text-center my-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card border-0 text-center" style="width: 18rem;">
+                        <h5 class="card-title pb-4 fs-1">identite visuelle</h5>
+                        <img src="./public/img/identite-graphique.png" class="card-img-top pb-4" alt="..." width="200" height="250">
+                        <div class="card-body">
+                          <p class="card-text pb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-dark text-light pe-5 ps-5">ca m'interesse</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-0 text-center" style="width: 18rem;">
+                        <h5 class="card-title pb-4 fs-1">web</h5>
+                        <img src="./public/img/reseaux-sociaux.png" class="card-img-top pb-4" alt="..." width="200" height="250">
+                        <div class="card-body">
+                          <p class="card-text pb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-dark text-light pe-5 ps-5">ca m'interesse</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card border-0 text-center" style="width: 18rem;">
+                        <h5 class="card-title pb-4 fs-1">Print</h5>
+                        <img src="./public/img/print.png" class="card-img-top pb-4" alt="..." width="200" height="250">
+                        <div class="card-body">
+                          <p class="card-text pb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-dark text-light pe-5 ps-5">ca m'interesse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 text-center text-lg-start">
+                    <h3>Packs</h3>
+                    <div>
+                        <img class="w-25" src="./public/img/icon-eclosion.png" alt="">
+                        <img class="w-25" src="./public/img/icon-evolution.png" alt="">
+                        <img class="w-25" src="./public/img/icon-envole.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 text-center text-lg-start">
+                    <h3>Packs</h3>
+                    <div>
+                        <img class="w-25" src="./public/img/identite-graphique.png" alt="">
+                        <img class="w-25" src="./public/img/reseaux-sociaux.png" alt="">
+                        <img class="w-25" src="./public/img/print.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 text-center text-lg-start">
+                    <h3>Packs</h3>
+                    <div>
+                        <img class="w-25" src="./public/img/social-f.png" alt="">
+                        <img class="w-25" src="./public/img/google-plus.png" alt="">
 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-end">
+            <span class="pe-5">C.G.V</span>
+        </div>
+    </footer>
 
     <!-- links -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
 </body>
+
 </html>
